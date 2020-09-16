@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Formulario de Regisros</h1>
+    
+    <form action="#" method="GET" style="margin-left: 30%;">
+        <br>
+        <div>
+        <label for="nombre">Ingrese su nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre de la persona" required>
+    </div>
+        <br>
+        <!-- div>label+input:t-->
+        <div>
+            <label for="clave">Ingrese contraseña</label>
+            <input type="password" name="password" id="clave" placeholder="clave">
+        </div>
+        <br>
+        <div><label for="correo">Ingrese su correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Correo elecronico">
+        </div>
+        <br>
+
+        <div>
+            <label for="informacion">Recibir informacion a su correo elecronico</label>
+            <input type="checkbox" name="informacion" id="informacion" checked>
+        </div>
+        <br>
+        <!-- div>(input:radio+label)*4-->
+        <div style="margin-left: 30px;">
+        
+            <input type="radio" name="edad" value="menos15" id="menos15">
+            <label for="menos15">Menor de 15 años</label><br>
+
+            <input type="radio" name="edad" value="entre15-25" id="entre15-25">
+            <label for="entre15-25">Entre 15 y 25 años de edad</label><br>
+
+            <input type="radio" name="edad" value="entre26-35" id="entre26-35">
+            <label for="entre26-35">Entre 26 y 35 años de edad</label><br>
+
+            <input type="radio" name="edad" value="mayor35" id="mayor35">
+            <label for="mayor35">Mayor de 35 años</label><br>
+        </div>
+
+
+
+
+        <br>
+        
+        <div>
+        <!--label{¿En que pais vivis}+select+option*8-->
+        <label for="pais">¿En que pais vivis</label>
+        <select name="pais" id="pais">
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="chile">Chile</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="paraguay">Paraguya</option>
+            <option value="venezuela">Venezuela</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br>
+        <!--div>label{Dejanos tu comentario}+textarea-->
+        <div>
+            <label for="comentario">Dejanos tu comentario</label><br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea></div>
+    </div>
+    <br>
+    <input type="submit" value="Enviar" style="margin-left: 50%;">
+    </form>
+</body>
+</html>

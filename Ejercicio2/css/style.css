@@ -1,0 +1,21 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+}
+ul{
+    list-style: decimal;
+}
+a{
+    text-decoration: none;;
+}
+.articulosCentrales{
+    font-style: italic;
+    font-style: obliques;
+}
+
+#noticia1{
+    color:tomato;
+    background: lightgray;
+    text-align: center;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion de Html</title>
+</head>
+
+<body>
+    <!-- Pruebas de etiquetas en el boddy    -->
+    <h1>Prueba html</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus dolorum cupiditate odit inventore nihil
+        explicabo <b>tetome</b> magni assumenda, <i>aso mis</i> necessitatibus eos ab, tempora accusamus facilis autem
+        in dolores eius numquam vitae
+        facere?</p>
+
+    <br>
+
+    <!-- p>lorem50 -->
+
+    &nbsp;
+    <img src="https://picsum.photos/id/684/600/400" alt="No se encuentra la imagen">
+    <img src="https://picsum.photos/id/1044/600/400" alt="Error imagen">
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque praesentium temporibus est fugit sequi
+        repudiandae dolores facilis saepe deleniti ducimus tenetur remillum harum. Veniam sed delectus numquam ipsam
+        excepturi?</p>
+
+    <!-- listas: ul, o ol (muestra numeros) -->
+    <ul>
+        <li><a href=""> Home</a></li>
+        <li><a href="registro.html"> Registros</a></li>
+        <li><a href="http://www.facebook.com/emi.rigo" target="_blank"> Facebook </a>
+            <ul>
+                <li><a href="imagenes/mapa warzone.jpg" target="_blank"> Mapa warzone</a></li>
+            </ul>
+        </li>
+        <li><a href="www.instagram/emi.rigo"> Instagram</a></li>
+    </ul>
+
+    <hr>
+    <img src="imagenes/mapa warzone.jpg" alt="Error se ha producido">
+    <br>
+    <hr>
+    <a href="http://facebook.com/emi.rigo" target="_blank">Facebook</a>
+    <br>
+    <cite>Autor: Emiliano Rigobello</cite>
+    <hr>
+    <hr>
+    <hr>
+    <h2>Tablas</h2>
+    <table border="1px">
+        <tr>
+            <td>Elemento 1</td>
+            <td>Elemento 1</td>
+            <td>Elemento 1</td>
+        </tr>
+        <tr>
+            <td>Elemento 1</td>
+            <td>Elemento 1</td>
+            <td>Elemento 1</td>
+        </tr>
+        <tr>
+            <td>Elemento 1</td>
+            <td>Elemento 1</td>
+            <td>Elemento 1</td>
+        </tr>
+    </table>
+    <!-- table>tr*3>t{Elemento}*3 -->
+    <!-- table>caption{Productos}>thead>th{Nombre}*3 -->
+    <table border="3px">
+        <caption> Productos</caption>
+            <thead>
+                <th>Producto</th>
+                <th>Tamaño</th>
+                <th>Precio</th>
+            </thead>
+        
+        <!-- tbody>(tr>td*3)*4 -->
+        <tbody>
+            <tr>
+                <td rowspan="1px">Peine</td>
+                <td>Redondo</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Escoba</td>
+                <td>Larga</td>
+                <td>140</td>
+            </tr>
+            <tr>
+                <td>Cepillo</td>
+                <td>Plano</td>
+                <td>350</td>
+            </tr>
+            <tr>
+                <td>Jabon</td>
+                <td>Redondo</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th>790</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
