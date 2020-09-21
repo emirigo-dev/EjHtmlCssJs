@@ -1,0 +1,10 @@
+img{
+    position: fixed;
+    left: 400px;
+    opacity: 0.5;
+    
+}
+#parrafoFinal{
+    position:relative;
+    bottom:100px;
+}

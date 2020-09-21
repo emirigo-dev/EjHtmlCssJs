@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.contenedor{
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+
+.caja{
+    border: 1px solid #999;
+    width: 33%;
+    padding: 1%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
