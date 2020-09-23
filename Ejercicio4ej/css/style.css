@@ -5,7 +5,9 @@ h1{
     margin: 0 auto;
 }
 img{
+    /* relative, absolute, fixed posiciones originales */
     max-width: 100%;
+    
 }
 
 .caja{

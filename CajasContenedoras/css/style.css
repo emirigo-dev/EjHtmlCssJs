@@ -1,0 +1,27 @@
+section{
+    height: 700px;
+    width: 500px;
+    background-color: aquamarine;
+   
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 100px;
+    width: 100px;
+}
+#uno{
+
+    background-color: red;
+}
+#dos{
+    background-color: black;
+    top: 50px;
+    right: 50px;
+}   
+#tres{
+    background-color:green;
+    top: 100px;
+    right: 100px;
+}

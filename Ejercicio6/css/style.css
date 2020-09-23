@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: cornsilk;
+}
+body{
+    background-image: url(../imagenes/Prime\ cs\ go.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-attachment: fixed;
+}
+div{
+    margin-top: 10%;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    background-color: rgba(125,126,128,0.2);
+    margin-left: 5%;
+}
+p{
+    font-size: 4rem;
+    margin-left: 5%;
+}
