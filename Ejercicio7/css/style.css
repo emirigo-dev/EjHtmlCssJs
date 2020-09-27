@@ -4,8 +4,7 @@ body {
 }
 
 #contenedor {
-    width: auto;
-    height: 600px;
+    width: 100%;
     background-color: white;
     border: grey solid 3px;
     border-radius: 6px;
@@ -53,15 +52,26 @@ body {
     margin-left: 40px;
 }
 
+.fila {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filita {
+    width: 61%;
+    display: block;
+}
+
 #caja1 {
-    width: 62%;
+    width: 70%;
     height: 100px;
     background-color: red;
     margin: 3px;
 }
 
 #caja2 {
-    width: 33%;
+    width: 29%;
     height: 100px;
     background-color: red;
     margin: 3px;
@@ -73,41 +83,35 @@ body {
     background-color: yellow;
     margin: 3px;
 }
-#contenedor2{
-    width: 57%;
-    height: 306px;
-    margin-right: 6px;
-  
-}
 #caja4{
-    width: 100%;
+    width: 99%;
     height: 48%;
     background-color: purple;
     margin: 3px;
     margin-bottom: 6px;
 }
 #caja5{
-    width: 100%;
+    width: 99%;
     height: 48%;
     background-color: purple;
     margin: 3px;
     
 }
 #caja6{
-   width: 28%;
+   width: 30%;
    height: 120px;
    background-color: blue;
    margin: 3px; 
    
 }
 #caja7{
-    width: 37%;
+    width: 39%;
     height: 120px;
     background-color: blue;
     margin: 3px; 
  }
  #caja8{
-    width: 28%;
+    width: 30%;
     height: 120px;
     background-color: blue;
     margin: 3px;
