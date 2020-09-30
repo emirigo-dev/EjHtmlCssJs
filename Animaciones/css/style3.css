@@ -1,0 +1,15 @@
+/* Pseudoclases */
+
+.caja{
+    transition: 0s;
+    filter: grayscale(100%);
+}
+.caja:hover{
+    /* background-color: hotpink;
+    transform: translate(-5px,5px) scale(1,1) rotate(5deg);
+    border-radius: 10%; */
+    filter:grayscale(0%)
+}
+.caja:active{
+    transform: scale(1.4);
+}

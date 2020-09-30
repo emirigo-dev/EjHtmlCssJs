@@ -1,0 +1,11 @@
+.caja{
+    transform: translateX(20px);
+    transform: translateY(100px);
+    /* transform: translate(40px,40px);
+    transform: scaleX(1,2);
+    transform: scaleY(2);
+    transform: scale(0.5); */
+    /* transform: rotateX(120deg);
+
+    transform: skew(30deg,4deg); */
+}

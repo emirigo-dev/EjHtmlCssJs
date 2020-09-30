@@ -1,0 +1,16 @@
+/* Efectos sobre textos y sombreados  */
+p{
+    text-align: justify;
+    line-height: 30px;   
+    text-transform: capitalize;
+    word-spacing: normal;
+
+}
+h1{
+    text-decoration: underline;
+    text-shadow: 2px 2px 10px green;
+}
+.caja{
+    box-shadow: inset 2px 2px 10px green;
+
+}
